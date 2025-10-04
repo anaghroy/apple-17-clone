@@ -140,3 +140,45 @@ section img {
   color: white;
   transition: all 0.3s ease-in-out;
 }
+#section3 {
+  height: 70%;
+  width: 100%;
+  background-image: url("./Images/section3.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+#section3 h1 {
+  color: rgb(0, 0, 0);
+  font-family: "appleFont-3";
+  font-size: 3.5rem;
+
+  padding-top: 40px;
+}
+#section3 p {
+  color: rgb(0, 0, 0);
+  font-family: "appleFont-2";
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+#links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+#links button {
+  background-color: transparent;
+  color: #0077ed;
+  border: 2px solid #0077ed;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+#links button:hover {
+  background-color: #0077ed;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
